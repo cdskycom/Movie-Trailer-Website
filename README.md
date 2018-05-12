@@ -16,8 +16,9 @@ This project tested under python 3.6. It's recommendation to use 3.6 or above.
 
 ## Usage:
 Command Line
-   python entertainment_center.py --init   use a predefined movies list to init a movie list - of course this list is my favorate movies :)
-   python entertainment_center.py --list   open a web page show movies list.
-   python entertainment_center.py --add    open a interactive model to add movie information to database.
-   python entertainment_center.py --del _movie_title_  delete a movie from database. **movie_title** is the movie's title string.
+
+   python entertainment_center.py _--init_   use a predefined movies list to init a movie list - of course this list is my favorate movies :)
+   python entertainment_center.py _--list_   open a web page show movies list.
+   python entertainment_center.py _--add_    open a interactive model to add movie information to database.
+   python entertainment_center.py _--del_  _movie_title_  delete a movie from database. **movie_title** is the movie's title string.
 
