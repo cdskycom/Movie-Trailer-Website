@@ -62,12 +62,27 @@ def show_movie_trailer():
 # movie title as key 
 def add_movie():
 	movie_title = input("Movie_Title:")
+	if not movie_title or movie_title.strip() == '':
+		print("movie_title can not be empty")
+		return
+
 	storyline = input("Storyline:")
+	if not storyline or storyline.strip() == '':
+		print("storyline can not be empty")
+		return
+
 	poster_url = input("Poster_URL:")
+	if not poster_url or poster_url.strip() == '':
+		print("movie_title can not be empty")
+		return
+
 	trailer_url = input("Trailer_URL(pls input the online trailer's url):")
+	if not trailer_url or trailer_url.strip() == '':
+		print("movie_title can not be empty")
+		return
 
 	with shelve.open(MOVIE_DATABASE) as db:
-		db[movie_title] = media.Movie(movie_title,storyline,poster_url,trailer_url)
+		db[movie_title] = media.Movie(movie_title.strip(),storyline.strip(),poster_url.strip(),trailer_url.strip())
 
 # delete movie from database
 # title - a movie title and is the db's key of the movie
