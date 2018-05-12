@@ -4,9 +4,9 @@ Movie-Trailer-Website will accept your favorate movie information interactively 
 
 This project consist of three mainly files: entertainment_center.py media.py fresh_tomatoes.py. Once you run this project there will be a auto created data file called movie_data that store movie information persistence.
 
-entertainment_center.py is entrance file
-media.py defined the Movie class
-fresh_tomatoes.py will read movie inforamtion and produce a HTML file.
+- entertainment_center.py is entrance file
+- media.py defined the Movie class
+- fresh_tomatoes.py will read movie inforamtion and produce a HTML file.
 
 ## Installation
 - git clone https://github.com/cdskycom/Movie-Trailer-Website.git
